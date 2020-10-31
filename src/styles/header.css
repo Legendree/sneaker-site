@@ -1,0 +1,73 @@
+.header_container {
+  display: flex;
+  padding: 25px 0px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 8px solid black;
+}
+
+.header_menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_item {
+  position: relative;
+  margin-left: 25px;
+  cursor: default;
+}
+
+.menu_item:hover {
+  color: #f2cfcb;
+  cursor: pointer;
+}
+
+.menu_cart_icon {
+  height: 24px;
+  width: 24px;
+}
+
+.item_tooltip {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: auto;
+  left: 0;
+  white-space: nowrap;
+  border: solid 2px black;
+  background-color: white;
+  padding: 10px 25px;
+  color: black;
+  margin: 0 -30%;
+}
+
+.menu_item:hover .item_tooltip {
+  display: flex;
+}
+
+.tooltip_main_item {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+
+.tooltip_item {
+  margin: 10px 10px;
+}
+
+.tooltip_item:hover {
+  color: #f2cfcb;
+}
+.tooltip_main_item:hover {
+  cursor: default;
+}
+
+.tp_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tooltip_main_category {
+  color: #c6c6c6;
+  margin-left: 25px;
+}
